@@ -86,13 +86,13 @@ function AllProductsPage() {
         <Product
           id={2312}
           key={2332}
-          itemImage='https://frexco-images-prd.s3.amazonaws.com/uploads/2022/10/3/308cbf12dfbe4aa482a92cd9bab7bf4f.jpeg'
-          itemName='Tomate Italiano Salada'
+          itemImage="https://frexco-images-prd.s3.amazonaws.com/uploads/2022/10/3/308cbf12dfbe4aa482a92cd9bab7bf4f.jpeg"
+          itemName="Tomate Italiano Salada"
           itemPrice={5.38}
-          itemPortion='Kg'
+          itemPortion="Kg"
           individualPrice={5.38}
           selectedAmount={10}
-          handleItemAddition={()=>''}
+          handleItemAddition={() => ""}
         />
 
         {pageItems.map(({
