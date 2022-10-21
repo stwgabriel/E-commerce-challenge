@@ -91,8 +91,8 @@ function AllProductsPage() {
             itemPrice={5.38}
             itemPortion={"Kg"}
             individualPrice={5.38}
-            selectedAmount={selectedAmount}
-            handleItemAddition={handleItemAddition}
+            selectedAmount={10}
+            handleItemAddition={()=>""}
           />
 
         {pageItems.map(({
