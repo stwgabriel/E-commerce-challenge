@@ -28,7 +28,7 @@ function AllProductsPage() {
   useEffect(() => {
 
     setRenderLoader(true);
-    axios.get('https://empresas.frexco.com.br/api/product/public')
+    axios.get('https://casa.frexco.com.br/api/menu/public?storeType=home&lat=-23.551160918902873&lng=-46.634434840479635')
       .then((companyData) => {
 
         if (companyData.status < 200 || companyData.status >= 300) { throw new Error(); }
